@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-alias vi='vim'
-alias df='df -h'
-alias p='python3'
-alias x='chmod 700 *'
-
 # List all files colorized in long format
 alias l="ls -lF ${colorflag}"
 
@@ -20,6 +15,11 @@ alias ls="command ls ${colorflag}"
 alias l.='ls -d .*'
 alias ll='ls -la'
 alias lt='ls -ltr'
+
+alias vi='vim'
+alias df='df -h'
+alias p='python3'
+alias x='chmod 700 *'
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
