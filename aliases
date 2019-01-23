@@ -7,8 +7,6 @@ alias p='python3'
 alias lt='ls -ltr'
 alias x='chmod 700 *'
 
-
-
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
