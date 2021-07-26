@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo ".functions has executed"
+
 # Create a new directory and enter it
 function mkd() {
 	mkdir -p "$@" && cd "$_";
@@ -169,3 +171,6 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+
+
