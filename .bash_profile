@@ -1,5 +1,5 @@
 # ~/.bash_profile
-# #
+#
 
 clear
 
