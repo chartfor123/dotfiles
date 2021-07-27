@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
-#
 
-echo ".bash_prompt \$PS1 has executed"
+# echo ".bash_prompt \$PS1 has executed"
 
 PS1="\[\e[5;32m\]\u@\H:\[\e[m\] \[\e[0;37m\]\w\[\e[m\]\n\[\e[0;33m\]hist:\! \[\e[0;33m\] $\[\e[m\] "
 
