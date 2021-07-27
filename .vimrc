@@ -81,9 +81,9 @@ set wildignore=*.swp,*.bak,*.pyc,*.class
 "set t_Co=256
 let g:solarized_termcolors=256
 
-"set background=dark
+set background=dark
 
-set background=light
+"set background=light
 "colors zenburn
 colorscheme solarized
 
