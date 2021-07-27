@@ -33,8 +33,7 @@ set relativenumber
 " call vundle#end()            " required
 filetype plugin indent on    " required
 
-"syntax on
-syntax enabled
+syntax on
 
 "autocmd FileType python set omnifunc=pythoncomplete#Complete
 "autocmd filetype python set expandtab
@@ -79,7 +78,7 @@ set undolevels=10000      " use many muchos levels of undo
 set visualbell           " don't beep
 set wildignore=*.swp,*.bak,*.pyc,*.class
 
-"set t_Co=256
+set t_Co=256
 let g:solarized_termcolors=256
 
 "set background=dark
