@@ -34,7 +34,7 @@ set relativenumber
 filetype plugin indent on    " required
 
 syntax on
-syntax enabled
+"syntax enabled
 
 "autocmd FileType python set omnifunc=pythoncomplete#Complete
 "autocmd filetype python set expandtab
@@ -80,7 +80,7 @@ set visualbell           " don't beep
 set wildignore=*.swp,*.bak,*.pyc,*.class
 
 "set t_Co=256
-"let g:solarized_termcolors=256
+let g:solarized_termcolors=256
 
 "set background=dark
 
