@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
-#
 
-echo ".aliases has executed"
+# echo ".aliases has executed"
 
 # my shortcuts
 alias df='df -h'
