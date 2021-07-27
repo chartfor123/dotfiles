@@ -1,6 +1,6 @@
 # ~/.screenrc
 
-echo ".screenr has executed"
+# echo ".screenr has executed"
 
 # Disable the startup message
 # startup_message off
