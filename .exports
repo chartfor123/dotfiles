@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
 
-echo ".exports has executed"
+echo ".exports has executed."
 
 # Make vim the default editor.
 export EDITOR='vim';
