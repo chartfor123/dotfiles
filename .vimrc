@@ -34,7 +34,7 @@ set relativenumber
 filetype plugin indent on    " required
 
 syntax on
-"syntax enabled
+syntax enabled
 
 "autocmd FileType python set omnifunc=pythoncomplete#Complete
 "autocmd filetype python set expandtab
@@ -86,7 +86,7 @@ set wildignore=*.swp,*.bak,*.pyc,*.class
 
 "set background=light
 "colors zenburn
-"colorscheme solarized
+colorscheme solarized
 
 map <up> <nop>
 map <down> <nop>
