@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
-#
 
-echo ".functions has executed"
+# echo ".functions has executed"
 
 # Create a new directory and enter it
 function mkd() {
