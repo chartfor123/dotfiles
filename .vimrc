@@ -33,15 +33,15 @@ set relativenumber
 " call vundle#end()            " required
 filetype plugin indent on    " required
 
-syntax on
-"syntax enabled
+"syntax on
+syntax enabled
 
 "autocmd FileType python set omnifunc=pythoncomplete#Complete
 "autocmd filetype python set expandtab
 
 set autoindent
 set backspace=indent,eol,start     "allow backspacing over everything in insert mode
-set bg=dark
+"set bg=dark
 set copyindent    " copy the previous indentation on autoindenting
 set cursorline
 set encoding=utf-8
