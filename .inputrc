@@ -1,5 +1,6 @@
 # ~/.inputrc
-#
+
+echo ".inputrc has executed"
 
 # Make Tab autocomplete regardless of filename case
 set completion-ignore-case on
