@@ -83,7 +83,7 @@ let g:solarized_termcolors=256
 
 "set background=dark
 
-"set background=light
+set background=light
 "colors zenburn
 colorscheme solarized
 
