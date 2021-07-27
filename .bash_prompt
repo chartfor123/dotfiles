@@ -48,7 +48,7 @@
 
 #fails PS1="\[\033]0;\W\007\]\[\]\n\[\]\u\[\] at \[\]\h\[\] in \[\]\w$(prompt_git "\[\] on \[\]" "\[\]")\n\[\]$ \[\]"
 
-#
-PS1="$(tput setaf 2)\u$(tput sgr0)$(tput setaf 7)@$(tput sgr0)$(tput setaf 6)\h:$(tput sgr0)\[\033[01;34m\]\w\[\033[00m\]\$ "
+#PS1="$(tput setaf 2)\u$(tput sgr0)$(tput setaf 7)@$(tput sgr0)$(tput setaf 6)\h:$(tput sgr0)\[\033[01;34m\]\w\[\033[00m\]\$ "
 
-# PS1="\[$(tput setaf 2)\]\u\[$(tput sgr0)$(tput setaf 7)\]@\[$(tput sgr0)$(tput setaf 6)\]\h:\[$(tput sgr0)\]\[\033[01;34m\]\w\[\033[00m\]\$ "
+#
+PS1="\[$(tput setaf 2)\]\u\[$(tput sgr0)$(tput setaf 7)\]@\[$(tput sgr0)$(tput setaf 6)\]\h:\[$(tput sgr0)\]\[\033[01;34m\]\w\[\033[00m\]\$ "
