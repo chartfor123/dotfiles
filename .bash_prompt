@@ -44,10 +44,10 @@
 
 #PS1="$(tput setaf 1)\u$(tput sgr0)$(tput setaf 2)@$(tput sgr0)$(tput setaf 3)\h:$(tput sgr0)"
 
-#
-PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "
+#PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "
 
-#PS1="\[\033]0;\W\007\]\[\]\n\[\]\u\[\] at \[\]\h\[\] in \[\]\w$(prompt_git "\[\] on \[\]" "\[\]")\n\[\]$ \[\]"
+#
+PS1="\[\033]0;\W\007\]\[\]\n\[\]\u\[\] at \[\]\h\[\] in \[\]\w$(prompt_git "\[\] on \[\]" "\[\]")\n\[\]$ \[\]"
 
 # PS1="$(tput setaf 2)\u$(tput sgr0)$(tput setaf 7)@$(tput sgr0)$(tput setaf 6)\h:$(tput sgr0)\[\033[01;34m\]\w\[\033[00m\]\$ "
 
