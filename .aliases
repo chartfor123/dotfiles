@@ -21,8 +21,8 @@ alias -- -="cd -"
 
 # Shortcuts
 # alias d="cd ~/Documents/Dropbox"
-alias dl="cd ~/Downloads"
-alias dt="cd ~/Desktop"
+# alias dl="cd ~/Downloads"
+alias www="cd /var/www/html"
 # alias p="cd ~/projects"
 alias g="git"
 
