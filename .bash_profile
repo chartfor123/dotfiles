@@ -1,5 +1,6 @@
 # ~/.bash_profile
-# clear
+
+clear
 
 #echo ".bash_profile has executed"
 
