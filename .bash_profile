@@ -4,6 +4,8 @@ clear
 
 #echo ".bash_profile has executed"
 
+TZ='America/Los_Angeles'
+
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 
