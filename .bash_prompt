@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#
 PS1="\n\n\[\e[0;37m\]\h    \d    \@\[\e[m\]\n\[\e[0;32m\]History: \!\n\[\e[1;36m\](\w\[\e[m\]\[\e[1;36m\]) $\[\e[m\] "
 
 #PS1="\n\[\e[30;1m\]\[\016\]\[\017\](\[\h\[\e[30;1m\])-(\[\e[34;1m\]\@ \d\[\e[30;1m\])->\[\e[30;1m\]\n\[\016\]\[\017\](\[\[\e[32;1m\]\w\[\e[30;1m\])-(\[\e[32;1m\]\$(/bin/ls -1 | /usr/bin/wc -l | /bin/sed 's: ::g') files, \$(/bin/ls -lah | /bin/grep -m 1 total | /bin/sed 's/total //')b\[\e[30;1m\])-> \[\e[0m\]"
